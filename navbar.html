@@ -1,0 +1,47 @@
+<nav>
+  <span id="brand">
+    <a href="index.html">clemritz</a>
+  </span>
+
+  <ul id="menu">
+    <li><a href="index.html">home<span>.</span></a></li>
+    <li><a href="work.html">work<span>.</span></a></li>
+    <li><a href="about.html">about me<span>.</span></a></li>
+  </ul>
+
+  <div id="toggle">
+    <div class="span">menu</div>
+  </div>
+
+</nav>
+
+
+<div id="resize">
+  <div class="close-btn">close</div>
+
+  <ul id="menu">
+    <li><a href="index.html">home<span>.</span></a></li>
+    <li><a href="work.html">work<span>.</span></a></li>
+    <li><a href="about.html">about me<span>.</span></a></li>
+  </ul>
+
+</div>
+
+<script src="navigation.js"></script>
+
+<script type="text/javascript">
+  // NAV ANIMATION
+  TweenMax.from("#brand", 1, {
+    delay: 0.4,
+    y: 10,
+    opacity: 0,
+    ease: Expo.easeInOut
+  })
+
+  TweenMax.staggerFrom("#menu li a", 1, {
+    delay: 0.4,
+    opacity: 0,
+    ease: Expo.easeInOut
+  }, 0.1);
+  // NAV ANIMATION END
+</script>

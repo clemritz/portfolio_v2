@@ -1,0 +1,18 @@
+/* Body */
+@import url('./body.css/body.css');
+
+/* Navigation */
+@import url('./navigation/footer.css');
+@import url('./navigation/navbar.css');
+
+/* Other */
+@import url('./other/hero.css');
+@import url('./other/project.css');
+@import url('./other/scroll.css');
+@import url('./other/type-effect.css');
+
+
+/* Pages */
+@import url('./pages/about-page.css');
+@import url('./pages/contact-form.css');
+@import url('./pages/work-page.css');
